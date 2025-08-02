@@ -14,3 +14,43 @@
   object-position: center;
   display: block;
 }
+
+/* overlay styling for hero text */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+/* header text styling */
+.overlay h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* subtitle styling */
+.overlay p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* email button styling */
+.email-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.email-btn:hover {
+  background-color: rgba(0,0,0,0.9);
+}
