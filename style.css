@@ -1,47 +1,16 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #000;
-}
+/* hero container takes full viewport height */
 .hero {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
+
+/* banner image scales to fit container and show full image */
 .banner {
   width: 100%;
   height: 100%;
-  display: block;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
-}
-.overlay {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  color: white;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
-}
-.overlay h1 {
-  font-size: 3em;
-  margin: 0;
-}
-.overlay p {
-  font-size: 1.5em;
-  margin-top: 10px;
-}
-.email-btn {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 12px 24px;
-  background: #00c37e;
-  color: white;
-  text-decoration: none;
-  font-size: 1em;
-  border-radius: 6px;
-}
-.email-btn:hover {
-  background: #00a96b;
+  display: block;
 }
